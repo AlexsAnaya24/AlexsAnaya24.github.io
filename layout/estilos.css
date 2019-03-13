@@ -1,0 +1,58 @@
+.header{
+	background-color: purple;
+	text-align: center;
+	padding: 30px;
+}
+.header h1{
+	color: yellow;
+	font-size: 60px;
+}
+.menu{
+	background-color: orange;
+	overflow: hidden;
+}
+.menu a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding:16px;
+}
+.menu a:hover{
+	color: red;
+	background-color: green;
+
+}
+.izquierda{
+	float: left;
+	width: 70%;
+}
+.item{
+	background-color: pink;
+	width: 100%;
+   padding: 20px; 
+}
+.imagen{
+	width: 200px;
+}
+body{
+	background-color: #e9967a;
+}
+.derecha{
+	float: left;
+	width: 25%;
+	background-color: purple;
+	padding-left: 20px;
+}
+.contenido{
+	content:"";
+	display: table;
+	clear: both;
+}
+.footer{
+	padding: 20px;
+	text-align: center;
+	background-color: #E040FB;
+	margin-top: 20px;
+
+}
